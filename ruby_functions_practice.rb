@@ -123,6 +123,12 @@ def hunger_level(num)
   result = "Chicken" if (num >=7)
   result = "Soup" if (num >= 4)
   result = "Salad" if (num < 4)
-puts result 
+return result 
+end
+def monkey_smile (aSmile, bSmile)
+ 
+  return "BIG Trouble" if aSmile && bSmile == true
+
+  return "its okay" if aSmile || bSmile == false
 end
 # 
